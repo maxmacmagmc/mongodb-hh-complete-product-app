@@ -5,6 +5,7 @@ import productRouter from "./apps/products.js";
 const app = express();
 const port = 4001;
 
+
 // `cors` เป็น Middleware ที่ทำให้ Client ใดๆ ตามที่กำหนด
 // สามารถสร้าง Request มาหา Server เราได้
 // ในโค้ดบรรทัดล่างนี้คือให้ Client ไหนก็ได้สามารถสร้าง Request มาหา Server ได้
